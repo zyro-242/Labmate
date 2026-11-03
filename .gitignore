@@ -1,0 +1,5 @@
+node_modules/
+client/dist/
+npm-debug.log*
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal

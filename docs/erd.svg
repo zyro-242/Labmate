@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" rx="20" fill="#f5f7fb"/>
+  <text x="450" y="46" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#17233b">LabMate · Sơ đồ dữ liệu</text>
+  <path d="M280 200H390M510 200H620" stroke="#9ba8bd" stroke-width="3"/>
+  <text x="335" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#65728a">1 — n</text>
+  <text x="565" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#65728a">1 — n</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="70" y="100" width="210" height="210" rx="14" fill="#fff" stroke="#dce3ee" stroke-width="2"/>
+    <path d="M70 114a14 14 0 0 1 14-14h182a14 14 0 0 1 14 14v36H70z" fill="#eaf0ff"/>
+    <text x="92" y="132" font-size="17" font-weight="700" fill="#365bd6">USERS</text>
+    <text x="92" y="178" font-size="14" fill="#33415b">id · PK</text><text x="92" y="207" font-size="14" fill="#33415b">name</text>
+    <text x="92" y="236" font-size="14" fill="#33415b">email · UNIQUE</text><text x="92" y="265" font-size="14" fill="#33415b">role</text>
+    <rect x="390" y="100" width="220" height="210" rx="14" fill="#fff" stroke="#dce3ee" stroke-width="2"/>
+    <path d="M390 114a14 14 0 0 1 14-14h192a14 14 0 0 1 14 14v36H390z" fill="#eaf7f0"/>
+    <text x="412" y="132" font-size="17" font-weight="700" fill="#16845c">BOOKINGS</text>
+    <text x="412" y="178" font-size="14" fill="#33415b">id · PK</text><text x="412" y="207" font-size="14" fill="#33415b">user_id · FK</text>
+    <text x="412" y="236" font-size="14" fill="#33415b">lab_id · FK</text><text x="412" y="265" font-size="14" fill="#33415b">date · time · purpose · status</text>
+    <rect x="620" y="100" width="210" height="210" rx="14" fill="#fff" stroke="#dce3ee" stroke-width="2"/>
+    <path d="M620 114a14 14 0 0 1 14-14h182a14 14 0 0 1 14 14v36H620z" fill="#fff1e7"/>
+    <text x="642" y="132" font-size="17" font-weight="700" fill="#c16a28">LABS</text>
+    <text x="642" y="178" font-size="14" fill="#33415b">id · PK</text><text x="642" y="207" font-size="14" fill="#33415b">name · building</text>
+    <text x="642" y="236" font-size="14" fill="#33415b">capacity · equipment</text><text x="642" y="265" font-size="14" fill="#33415b">description</text>
+  </g>
+  <text x="450" y="365" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#65728a">Một người dùng có nhiều đơn đặt · Một phòng có nhiều đơn theo lịch</text>
+</svg>
